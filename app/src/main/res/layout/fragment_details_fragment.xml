@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top|center">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/picView"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/physicsw2" />
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Gérard Mourou"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/priView"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:fontFamily="sans-serif"
+        android:text="Nobel Prize Winner in Physics 2018"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="He is a French scientist and pioneer in the field of electrical engineering and lasers. He was awarded a Nobel Prize in Physics in 2018, along with Donna Strickland, for the invention of chirped pulse amplification, a technique later used to create ultrashort-pulse, very high-intensity (petawatt) laser pulses."
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:typeface="sans" />
+
+</LinearLayout>

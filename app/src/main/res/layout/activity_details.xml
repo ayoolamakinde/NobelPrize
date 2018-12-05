@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/abg"
+    tools:context=".DetailsActivity">
+
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragmentDetails"
+        android:name="com.example.makindeayoola.nobelprize.details_fragment"
+        tools:layout="@layout/fragment_details_fragment"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/normalButton"
+        android:layout_marginTop="50dp"
+        android:layout_margin="40pt"
+        android:text="BACK"
+        android:paddingLeft="5dp"
+        android:padding="5dp"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:onClick="Back"
+        android:src="@drawable/exitl" />
+
+
+
+
+
+</LinearLayout>

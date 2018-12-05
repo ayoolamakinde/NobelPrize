@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bioFragment"
+    android:gravity="top|center"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif"
+        android:text="He is a French scientist and pioneer in the field of electrical engineering and lasers. He was awarded a Nobel Prize in Physics in 2018, along with Donna Strickland, for the invention of chirped pulse amplification, a technique later used to create ultrashort-pulse, very high-intensity (petawatt) laser pulses."
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:typeface="sans" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/normalButton"
+        android:layout_marginTop="10dp"
+        android:text="Exit Bonus View"
+        android:paddingLeft="5dp"
+        android:padding="5dp"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/exitl" />
+
+
+
+</LinearLayout>

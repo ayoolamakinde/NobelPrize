@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:gravity="top|center"
+    android:background="@drawable/bgaaa"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+   <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.example.makindeayoola.nobelprize.themain"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_themain"></fragment>
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/fragmentDetails"
+        android:name="com.example.makindeayoola.nobelprize.details_fragment"
+        tools:layout="@layout/fragment_details_fragment"></fragment>
+</LinearLayout>

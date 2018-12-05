@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    tools:context=".bonus">
+
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.example.makindeayoola.nobelprize.themain"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_themain"></fragment>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="0dp"
+       android:layout_marginBottom="0dp"
+       android:orientation="horizontal"
+       android:background="@drawable/bgaaa"
+       android:weightSum="2">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentPic"
+        android:layout_weight="1"
+        android:name="com.example.makindeayoola.nobelprize.fragment_pic"
+        tools:layout="@layout/fragment_fragment_pic"></fragment>
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/bioFragment"
+        android:name="com.example.makindeayoola.nobelprize.bioFragment"
+        tools:layout="@layout/fragment_bio"></fragment>
+
+   </LinearLayout>
+</LinearLayout>
+
